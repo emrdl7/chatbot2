@@ -487,19 +487,34 @@ body section.head {
     display: block;
   }
 }
-body section.head p.description {
+body section.head div.description {
   color: #505A6D;
   line-height: 1.4;
   margin: 0 0 30px;
 }
-body section.head p.description strong {
+body section.head div.description strong {
   display: block;
   font-size: 22px;
   margin: 0 0 10px;
 }
-body section.head p.description span {
+body section.head div.description span {
   display: block;
   font-size: 15px;
+}
+body section.head div.select {
+  display: flex;
+  gap: 10px;
+  margin: 0 0 20px;
+}
+body section.head div.select button {
+  flex: 1 1 auto;
+  background: #fff;
+  color: #464C53;
+  box-shadow: 2px 4px 10px #C0D3E6;
+  border-radius: 100px;
+  font-size: 15px;
+  padding: 12px;
+  border: none;
 }
 body section.head button.new-chat {
   background: #1C1C1C;
