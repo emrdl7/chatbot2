@@ -143,18 +143,28 @@ body {
       div.select {
         display:flex;
         gap:10px;
+          background:#fff;
+          box-shadow: 2px 4px 10px #C0D3E6;
+          border-radius: 100px;
       
-      margin:0 0 20px; 
+        margin:0 0 32px; 
 
         button {
           flex:1 1 auto;
-          background:#fff;
-          color:#464C53;
-          box-shadow: 2px 4px 10px #C0D3E6;
+          color:#4D74A2;
+          background:transparent;
           border-radius: 100px;
           font-size:15px;
-          padding: 12px;
+          padding: 0 12px;
+          height:48px;
           border:none;
+
+          &.active {
+            background:#4D74A2;
+            color:#fff;
+            font-weight:700;
+            box-shadow: 2px 2px 15px #C0D3E6;
+          }
 ;
         }
       }
